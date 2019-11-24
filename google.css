@@ -1,0 +1,107 @@
+header {
+    display: block;
+    margin-top: 10px ;
+    text-align: right;
+}
+
+.text-header:link, .text-header:visited {
+    text-decoration: none;
+    margin: 25px 10px 0 0;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+}
+
+#connect {
+    background: #4387fd;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius : 2px;
+    margin-right: 100px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+#text-header {
+    color: rgba(0,0,0,0.87);
+    margin: 10px 10px 0 0;
+}
+
+body {
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.full-search {
+
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+}
+#search-body {
+    display: block;
+
+}
+
+form.bla input[type=text] {
+    margin: 15px 0 15px 0;
+    padding: 10px;
+    font-size: 17px;
+    height : 50px;
+    width: 50%;
+    max-width: 650px;
+    border-radius: 24px;
+    border: 1px solid #dbdbdb ;
+}
+
+form.bla button {
+    margin: 15px 5px 0 5px;
+    width: 20%;
+    padding: 10px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;    
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: table-row;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+}
+
+#pays {
+    display: block;
+    border-top : 1px solid #e4e4e4;
+    border-bottom : 1px solid #e4e4e4;
+    padding: 15px;
+}
+
+.gauche {
+    display: block;
+    float: left;
+    border-bottom : 1px solid #e4e4e4;
+    padding: 15px;
+}
+
+.droite {
+    display: block;
+    float : right;
+    border-bottom : 1px solid #e4e4e4;
+    padding: 15px;
+
+}
+
+a:link , a:visited {
+    text-decoration: none;
+    margin: 25px 10px 0 0;
+    color:rgba(0,0,0,.54);
+    font-size: 15px;
+}
